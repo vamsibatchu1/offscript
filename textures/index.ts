@@ -2,7 +2,6 @@ import { paperAndInk } from './PaperAndInk';
 import { oliveAndChalk } from './OliveAndChalk';
 import { blueNotebook } from './BlueNotebook';
 import { midnight } from './Midnight';
-import { ruledNotebook } from './RuledNotebook';
 import { graphPaper } from './GraphPaper';
 import { engineeringPaper } from './EngineeringPaper';
 import { aquaLedger } from './AquaLedger';
@@ -15,7 +14,6 @@ export const PAPER_TEXTURES: readonly PaperTexture[] = [
   oliveAndChalk,
   blueNotebook,
   midnight,
-  ruledNotebook,
   graphPaper,
   engineeringPaper,
   aquaLedger,

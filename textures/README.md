@@ -8,7 +8,6 @@ Every paper has one `.tsx` file containing its definition, selector component, a
 | Olive & chalk | `OliveAndChalk.tsx` | Grain defined in the component's CSS |
 | Blue notebook | `BlueNotebook.tsx` | Grain defined in the component's CSS |
 | Midnight | `Midnight.tsx` | Grain defined in the component's CSS |
-| Ruled notebook | `RuledNotebook.tsx` | `RuledNotebook.svg` |
 | Graph paper | `GraphPaper.tsx` | `GraphPaper.svg` |
 | Engineering paper | `EngineeringPaper.tsx` | `EngineeringPaper.svg` |
 

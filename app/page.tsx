@@ -10,6 +10,7 @@ import { TypeTester } from '@/components/type-tester';
 import { DEFAULTS, PRESETS, familyName, generateAlphabet, measureLine, newSeed, seededParameters, type Glyph, type Parameters } from '@/lib/type-engine';
 import { buildFontBuffer, fontFileName } from '@/lib/build-font';
 import { PRESET_ICONS } from '@/app/preset-icons';
+import { Landing } from '@/components/landing';
 import { PAPER_TEXTURES } from '@/textures';
 
 type Alphabet = Record<string, Glyph & { left?: number }>;
@@ -71,6 +72,7 @@ export default function Home() {
   const [panelOpen, setPanelOpen] = useState(false);
   const [panelMode, setPanelMode] = useState('parameters');
   const [exported, setExported] = useState(false);
+  const [entered, setEntered] = useState(false);
   const initialized = useRef(false);
   const exportTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const glyphs = useMemo(() => generateAlphabet(seed, parameters), [seed, parameters]);
@@ -100,9 +102,12 @@ export default function Home() {
     exportTimer.current = setTimeout(() => setExported(false), 2200);
   }
 
+  if (!entered) return <Landing onEnter={() => setEntered(true)} />;
+
   return <div className="studio">
     <header className="topbar">
       <a className="brand" href="/" aria-label="Offscript, generate a new hand">offscript<span className="brand-dot">®</span></a>
+      <p className="brand-credit">an experimental project by <a href="https://x.com/vamsibatchuk" target="_blank" rel="noreferrer">Vamsi Batchu</a></p>
     </header>
 
     <div className="workspace">

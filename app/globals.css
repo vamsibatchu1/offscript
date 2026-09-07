@@ -69,9 +69,19 @@ button { cursor: pointer; }
 button, a, textarea { -webkit-tap-highlight-color: transparent; }
 button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 2px solid #c6683e; outline-offset: 4px; }
 button { transition: background .18s, color .18s, border-color .18s; }
+.landing { height: 100dvh; min-height: 500px; overflow: hidden; background-color: var(--paper); color: var(--ink); }
+.landing-sheet { min-height: 100%; display: grid; place-items: center; padding: 32px 28px; }
+.landing-center { width: min(640px, 100%); display: flex; flex-direction: column; align-items: stretch; gap: 28px; }
+.landing-word { margin: 0; width: 100%; }
+.landing-word svg { display: block; width: 100%; height: auto; overflow: hidden; }
+.landing-copy { margin: 0; width: 100%; font-family: var(--font-geist-mono); font-size: 12px; line-height: 1.7; letter-spacing: 1.1px; text-transform: uppercase; font-weight: 400; text-align: justify; text-justify: inter-word; }
+.landing-enter { align-self: center; border: 1px solid currentColor; background: transparent; color: inherit; border-radius: 0; padding: 11px 18px; font-family: var(--font-geist-mono); font-size: 11px; letter-spacing: 1.3px; text-transform: uppercase; }
+.landing-enter:hover { background: color-mix(in srgb, var(--ink) 10%, transparent); }
 .studio { height: 100dvh; min-height: 500px; display: flex; flex-direction: column; overflow: hidden; }
-.topbar { height: 78px; flex-shrink: 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 36px; padding: 0 30px; background: #fcfcfa; }
+.topbar { height: 78px; flex-shrink: 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 36px; padding: 0 30px; background: #fcfcfa; }
 .brand { color: #252922; display: flex; gap: 10px; align-items: center; text-decoration: none; font-family: Georgia, serif; font-size: 32px; font-style: italic; letter-spacing: -1.8px; line-height: 1; }
+.brand-credit { margin: 0; font-family: var(--font-geist-mono); font-size: 10px; letter-spacing: 1.3px; font-weight: 400; color: #7c8272; text-transform: uppercase; }
+.brand-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .brand-dot { font-family: Arial,sans-serif; font-size: 10px; font-style: normal; letter-spacing: 0; margin-left: -5px; align-self: flex-start; margin-top: 3px; }
 .toolbar-actions { display: flex; align-items: center; gap: 12px; }
 .icon-button { width: 32px; height: 32px; border-radius: 0; border: 1px solid #dfe0d6; background: transparent; color: #30362f; display: grid; place-items: center; }
