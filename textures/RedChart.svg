@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1082" height="1500" viewBox="0 0 1082 1500">
+  <title>Red recording chart paper</title>
+  <desc>Faded salmon-red recording grid on lightly grained off-white paper, with two clockwise number scales from zero to one hundred and broad blank end margins.</desc>
+  <defs>
+    <filter id="stock-grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.83 0.66" numOctaves="3" seed="65" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="printed-grid" x="-1%" y="-1%" width="102%" height="102%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.2"/>
+    </filter>
+    <linearGradient id="cool-wash">
+      <stop stop-color="#faf9f0"/>
+      <stop offset="0.25" stop-color="#fafaf4"/>
+      <stop offset="0.5" stop-color="#f4f8fa"/>
+      <stop offset="0.72" stop-color="#f8f9f3"/>
+      <stop offset="1" stop-color="#faf9f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1082" height="1500" fill="#f5f5f0"/>
+  <rect width="1082" height="1500" fill="url(#cool-wash)"/>
+  <rect width="1082" height="1500" filter="url(#stock-grain)" opacity="0.035"/>
+  <g fill="none" stroke="#d9857e" filter="url(#printed-grid)">
+    <path d="M0 114.03H1082 M0 127.06H1082 M0 140.09H1082 M0 153.12H1082 M0 179.18H1082 M0 192.21H1082 M0 205.24H1082 M0 218.27H1082 M0 244.33H1082 M0 257.36H1082 M0 270.39H1082 M0 283.42H1082 M0 309.48H1082 M0 322.51H1082 M0 335.54H1082 M0 348.57H1082 M0 374.63H1082 M0 387.66H1082 M0 400.69H1082 M0 413.72H1082 M0 439.78H1082 M0 452.81H1082 M0 465.84H1082 M0 478.87H1082 M0 504.93H1082 M0 517.96H1082 M0 530.99H1082 M0 544.02H1082 M0 570.08H1082 M0 583.11H1082 M0 596.14H1082 M0 609.17H1082 M0 635.23H1082 M0 648.26H1082 M0 661.29H1082 M0 674.32H1082 M0 700.38H1082 M0 713.41H1082 M0 726.44H1082 M0 739.47H1082 M0 765.53H1082 M0 778.56H1082 M0 791.59H1082 M0 804.62H1082 M0 830.68H1082 M0 843.71H1082 M0 856.74H1082 M0 869.77H1082 M0 895.83H1082 M0 908.86H1082 M0 921.89H1082 M0 934.92H1082 M0 960.98H1082 M0 974.01H1082 M0 987.04H1082 M0 1000.07H1082 M0 1026.13H1082 M0 1039.16H1082 M0 1052.19H1082 M0 1065.22H1082 M0 1091.28H1082 M0 1104.31H1082 M0 1117.34H1082 M0 1130.37H1082 M0 1156.43H1082 M0 1169.46H1082 M0 1182.49H1082 M0 1195.52H1082 M0 1221.58H1082 M0 1234.61H1082 M0 1247.64H1082 M0 1260.67H1082 M0 1286.73H1082 M0 1299.76H1082 M0 1312.79H1082 M0 1325.82H1082 M0 1351.88H1082 M0 1364.91H1082 M0 1377.94H1082 M0 1390.97H1082" stroke="#dd9994" stroke-width="0.95"/>
+    <path d="M0 101.00H1082 M0 166.15H1082 M0 231.30H1082 M0 296.45H1082 M0 361.60H1082 M0 426.75H1082 M0 491.90H1082 M0 557.05H1082 M0 622.20H1082 M0 687.35H1082 M0 752.50H1082 M0 817.65H1082 M0 882.80H1082 M0 947.95H1082 M0 1013.10H1082 M0 1078.25H1082 M0 1143.40H1082 M0 1208.55H1082 M0 1273.70H1082 M0 1338.85H1082 M0 1404.00H1082" stroke-width="1.35"/>
+    <path d="M19.50 101V1404 M85.35 101V1404 M151.20 101V1404 M217.05 101V1404 M282.90 101V1404 M348.75 101V1404 M414.60 101V1404 M480.45 101V1404 M546.30 101V1404 M612.15 101V1404 M678.00 101V1404 M743.85 101V1404 M809.70 101V1404 M875.55 101V1404 M941.40 101V1404 M1007.25 101V1404 M1073.10 101V1404" stroke-width="1.25"/>
+    <path d="M0.5 0V1500 M1081.5 0V1500" stroke-width="0.65" opacity="0.65"/>
+    <path d="M0 4H648 M0 88H1082 M0 1493H1082" stroke-width="1.2"/>
+  </g>
+  <g fill="#d78a83" font-family="Arial Narrow, Liberation Sans Narrow, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="300">
+    <rect x="351.5" y="97.00" width="20" height="12" fill="#f5f5f0"/>
+    <text transform="translate(361 103.00) rotate(90)" text-anchor="middle" dominant-baseline="central">0</text>
+    <rect x="351.5" y="218.80" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 231.30) rotate(90)" text-anchor="middle" dominant-baseline="central">10</text>
+    <rect x="351.5" y="349.10" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 361.60) rotate(90)" text-anchor="middle" dominant-baseline="central">20</text>
+    <rect x="351.5" y="479.40" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 491.90) rotate(90)" text-anchor="middle" dominant-baseline="central">30</text>
+    <rect x="351.5" y="609.70" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 622.20) rotate(90)" text-anchor="middle" dominant-baseline="central">40</text>
+    <rect x="351.5" y="740.00" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 752.50) rotate(90)" text-anchor="middle" dominant-baseline="central">50</text>
+    <rect x="351.5" y="870.30" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 882.80) rotate(90)" text-anchor="middle" dominant-baseline="central">60</text>
+    <rect x="351.5" y="1000.60" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 1013.10) rotate(90)" text-anchor="middle" dominant-baseline="central">70</text>
+    <rect x="351.5" y="1130.90" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 1143.40) rotate(90)" text-anchor="middle" dominant-baseline="central">80</text>
+    <rect x="351.5" y="1261.20" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(361 1273.70) rotate(90)" text-anchor="middle" dominant-baseline="central">90</text>
+    <rect x="351.5" y="1376.50" width="20" height="33" fill="#f5f5f0"/>
+    <text transform="translate(361 1392.50) rotate(90)" text-anchor="middle" dominant-baseline="central">100</text>
+    <rect x="748.0" y="97.00" width="20" height="12" fill="#f5f5f0"/>
+    <text transform="translate(757.5 103.00) rotate(90)" text-anchor="middle" dominant-baseline="central">0</text>
+    <rect x="748.0" y="218.80" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 231.30) rotate(90)" text-anchor="middle" dominant-baseline="central">10</text>
+    <rect x="748.0" y="349.10" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 361.60) rotate(90)" text-anchor="middle" dominant-baseline="central">20</text>
+    <rect x="748.0" y="479.40" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 491.90) rotate(90)" text-anchor="middle" dominant-baseline="central">30</text>
+    <rect x="748.0" y="609.70" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 622.20) rotate(90)" text-anchor="middle" dominant-baseline="central">40</text>
+    <rect x="748.0" y="740.00" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 752.50) rotate(90)" text-anchor="middle" dominant-baseline="central">50</text>
+    <rect x="748.0" y="870.30" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 882.80) rotate(90)" text-anchor="middle" dominant-baseline="central">60</text>
+    <rect x="748.0" y="1000.60" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 1013.10) rotate(90)" text-anchor="middle" dominant-baseline="central">70</text>
+    <rect x="748.0" y="1130.90" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 1143.40) rotate(90)" text-anchor="middle" dominant-baseline="central">80</text>
+    <rect x="748.0" y="1261.20" width="20" height="25" fill="#f5f5f0"/>
+    <text transform="translate(757.5 1273.70) rotate(90)" text-anchor="middle" dominant-baseline="central">90</text>
+    <rect x="748.0" y="1376.50" width="20" height="33" fill="#f5f5f0"/>
+    <text transform="translate(757.5 1392.50) rotate(90)" text-anchor="middle" dominant-baseline="central">100</text>
+  </g>
+  <text x="655" y="9" fill="#d77d74" font-family="Arial Narrow, Courier New, monospace" font-size="11" letter-spacing="1" textLength="437" lengthAdjust="spacingAndGlyphs">NO. 545001  LEEDS &amp; NORTHRUP • A UNIT OF GENERAL SIGNAL</text>
+  <g stroke="#f5f5f0" stroke-width="2" opacity="0.95">
+    <path d="M679 245V256 M151 1088V1120 M614 1175V1184 M943 245V255 M650 491H660 M854 205H864"/>
+  </g>
+</svg>

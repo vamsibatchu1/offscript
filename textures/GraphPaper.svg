@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1174" height="1528" viewBox="0 0 1174 1528">
+  <title>Cream graph paper</title>
+  <desc>Fine pale blue squares on softly grained cream paper, with the slightly uneven ruling and dark upper edge of the reference sheet.</desc>
+  <defs>
+    <filter id="paper-grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="17" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="soft-ink" x="-1%" y="-1%" width="102%" height="102%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.22"/>
+    </filter>
+    <radialGradient id="paper-tone" cx="42%" cy="47%" r="75%">
+      <stop stop-color="#fdfbf1"/>
+      <stop offset="1" stop-color="#fbf8ed"/>
+    </radialGradient>
+    <path id="grid" d="M23 2V1528 M48 2V1528 M78 2V1528 M103 2V1528 M129 2V1528 M155 2V1528 M183 2V1528 M207 2V1528 M235 2V1528 M263 2V1528 M291 2V1528 M319 2V1528 M345 2V1528 M372 2V1528 M397 2V1528 M425 2V1528 M452 2V1528 M480 2V1528 M505 2V1528 M533 2V1528 M561 2V1528 M587 2V1528 M616 2V1528 M643 2V1528 M670 2V1528 M695 2V1528 M724 2V1528 M749 2V1528 M779 2V1528 M805 2V1528 M834 2V1528 M857 2V1528 M886 2V1528 M912 2V1528 M942 2V1528 M970 2V1528 M996 2V1528 M1023 2V1528 M1050 2V1528 M1077 2V1528 M1102 2V1528 M1128 2V1528 M1154 2V1528 M0 29H1174 M0 55H1174 M0 84H1174 M0 111H1174 M0 137H1174 M0 164H1174 M0 191H1174 M0 216H1174 M0 243H1174 M0 271H1174 M0 296H1174 M0 326H1174 M0 350H1174 M0 379H1174 M0 405H1174 M0 433H1174 M0 460H1174 M0 486H1174 M0 514H1174 M0 540H1174 M0 566H1174 M0 595H1174 M0 621H1174 M0 647H1174 M0 674H1174 M0 702H1174 M0 728H1174 M0 755H1174 M0 780H1174 M0 808H1174 M0 835H1174 M0 862H1174 M0 890H1174 M0 915H1174 M0 942H1174 M0 969H1174 M0 998H1174 M0 1025H1174 M0 1051H1174 M0 1078H1174 M0 1103H1174 M0 1132H1174 M0 1158H1174 M0 1185H1174 M0 1211H1174 M0 1238H1174 M0 1265H1174 M0 1291H1174 M0 1319H1174 M0 1347H1174 M0 1373H1174 M0 1398H1174 M0 1426H1174 M0 1451H1174 M0 1481H1174 M0 1509H1174"/>
+  </defs>
+  <rect width="1174" height="1528" fill="#fbf8ed"/>
+  <rect width="1174" height="1528" fill="url(#paper-tone)" opacity="0.42"/>
+  <rect width="1174" height="1528" filter="url(#paper-grain)" opacity="0.022"/>
+  <use href="#grid" fill="none" stroke="#c6cfe3" stroke-width="2.2" opacity="0.18" filter="url(#soft-ink)"/>
+  <use href="#grid" fill="none" stroke="#d0d3e1" stroke-width="1"/>
+  <path d="M0.5 2V1528" fill="none" stroke="#aaa696" stroke-width="1" opacity="0.65"/>
+  <path d="M0 1H1174" fill="none" stroke="#323333" stroke-width="2"/>
+</svg>

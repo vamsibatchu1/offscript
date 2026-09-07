@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1210" height="1544" viewBox="0 0 1210 1544">
+  <title>Aqua ledger paper</title>
+  <desc>Softly grained paper with alternating pale aqua and warm-white bands, fine green horizontal ruling, and a double dotted margin near the right edge.</desc>
+  <defs>
+    <filter id="paper-grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78 0.72" numOctaves="3" seed="38" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="printed-ink" x="-1%" y="-1%" width="102%" height="102%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.2"/>
+    </filter>
+  </defs>
+  <!-- The light stock tones compensate for the translucent gray fiber grain. -->
+  <rect width="1210" height="1544" fill="#ecf5f3"/>
+  <rect width="1210" height="111" fill="#ebf4f2"/>
+  <g fill="#fcfbf6">
+    <rect y="111.00" width="1210" height="37.78"/>
+    <rect y="186.56" width="1210" height="37.78"/>
+    <rect y="262.12" width="1210" height="37.78"/>
+    <rect y="337.68" width="1210" height="37.78"/>
+    <rect y="413.24" width="1210" height="37.78"/>
+    <rect y="488.80" width="1210" height="37.78"/>
+    <rect y="564.36" width="1210" height="37.78"/>
+    <rect y="639.92" width="1210" height="37.78"/>
+    <rect y="715.48" width="1210" height="37.78"/>
+    <rect y="791.04" width="1210" height="37.78"/>
+    <rect y="866.60" width="1210" height="37.78"/>
+    <rect y="942.16" width="1210" height="37.78"/>
+    <rect y="1017.72" width="1210" height="37.78"/>
+    <rect y="1093.28" width="1210" height="37.78"/>
+    <rect y="1168.84" width="1210" height="37.78"/>
+    <rect y="1244.40" width="1210" height="37.78"/>
+    <rect y="1319.96" width="1210" height="37.78"/>
+    <rect y="1395.52" width="1210" height="37.78"/>
+    <rect y="1471.08" width="1210" height="37.78"/>
+  </g>
+  <rect width="1210" height="1544" filter="url(#paper-grain)" opacity="0.12"/>
+  <path d="M0 111.00H1210 M0 148.78H1210 M0 186.56H1210 M0 224.34H1210 M0 262.12H1210 M0 299.90H1210 M0 337.68H1210 M0 375.46H1210 M0 413.24H1210 M0 451.02H1210 M0 488.80H1210 M0 526.58H1210 M0 564.36H1210 M0 602.14H1210 M0 639.92H1210 M0 677.70H1210 M0 715.48H1210 M0 753.26H1210 M0 791.04H1210 M0 828.82H1210 M0 866.60H1210 M0 904.38H1210 M0 942.16H1210 M0 979.94H1210 M0 1017.72H1210 M0 1055.50H1210 M0 1093.28H1210 M0 1131.06H1210 M0 1168.84H1210 M0 1206.62H1210 M0 1244.40H1210 M0 1282.18H1210 M0 1319.96H1210 M0 1357.74H1210 M0 1395.52H1210 M0 1433.30H1210 M0 1471.08H1210" fill="none" stroke="#adc4b9" stroke-width="1" opacity="0.8" filter="url(#printed-ink)"/>
+  <g fill="none" stroke-width="1.8" stroke-dasharray="2 2" filter="url(#printed-ink)">
+    <path d="M1039.4 0V1509" stroke="#b0c5bb" opacity="0.88"/>
+    <path d="M1046.1 0V1509" stroke="#b8cbc2" opacity="0.88"/>
+  </g>
+  <path d="M0 1509H1210" fill="none" stroke="#b2c6be" stroke-width="1.5" filter="url(#printed-ink)"/>
+</svg>
